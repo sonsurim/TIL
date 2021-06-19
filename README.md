@@ -2,6 +2,9 @@
 학습한 내용을 기록하는 공간 🥸
 
 ---
+## 🔏 Commit Rule
+[커밋 작성규칙 바로가기](https://github.com/sonsurim/TIL/blob/main/Rules/TIL_Rules.md)
+
 
 ## 🗓 History
 
