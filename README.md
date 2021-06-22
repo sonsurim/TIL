@@ -23,4 +23,8 @@
   - [TypeScript 실무](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript%20%EC%8B%A4%EB%AC%B4.md)
   - [tsconfig.json](https://github.com/sonsurim/TIL/blob/main/TypeScript/tsconfig.json.md)
 - [x] [JS Doc 정리](https://github.com/sonsurim/TIL/tree/main/JS%20Doc)
+
+#### 6월 22일
+- [x] TypeScript 강의 듣기
+- [x] [TypeScript 타입 정리](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript%20%ED%83%80%EC%9E%85.md)
 </details>
