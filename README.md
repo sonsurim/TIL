@@ -18,13 +18,19 @@
 
 #### 6월 21일
 - [x] TypeScript 강의 듣기
-- [x] [TypeScript 정리](https://github.com/sonsurim/TIL/tree/main/TypeScript)
+- [x] TypeScript 정리
   - [TypeScript](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript.md)
-  - [TypeScript 실무](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript%20%EC%8B%A4%EB%AC%B4.md)
+  - [TypeScript_practice](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_practice.md)
   - [tsconfig.json](https://github.com/sonsurim/TIL/blob/main/TypeScript/tsconfig.json.md)
 - [x] [JS Doc 정리](https://github.com/sonsurim/TIL/tree/main/JS%20Doc)
 
 #### 6월 22일
 - [x] TypeScript 강의 듣기
-- [x] [TypeScript 타입 정리](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript%20%ED%83%80%EC%9E%85.md)
+- [x] [TypeScript_type 정리](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_type.md)
+
+#### 6월 23일
+- [x] TypeScript 강의 듣기
+- [x] [TypeScript_type 정리](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_type.md)
+- [x] [TypeScript_interface 정리](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_interface.md)
+- [x] [TypeScript_type-aliases 정리](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_type-aliases.md)
 </details>
