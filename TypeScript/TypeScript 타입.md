@@ -39,7 +39,21 @@
   ```
 - Enum
 - Any
+  - string,number,array 등의 모든 타입
+  - 실행하는 시점에 타입을 자동으로 할당
+  ```
+  let items: Any;
+
+  let items: Any = [];
+  ```
 - Void
+    - 반환값이 없다고 명시적으로 지정
+  ```
+  function addTodo(todo: object[]): void {
+    todoItems.push(todo);
+  };
+  ```
+
 - Null
 - Undefined
 - Never
