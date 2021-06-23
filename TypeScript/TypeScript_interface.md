@@ -103,3 +103,14 @@ const surim: Developer = {
   language: 'TypeScript'
 }
 ```
+## 인터페이스 vs 타입 별칭
+### 1. 타입의 모습
+- 인터페이스
+![인터페이스](/TypeScript/images/interface.png)
+- 타입 별칭
+![타입별칭](/TypeScript/images/type-aliases.png)
+
+### 2. 타입의 확장
+- 인터페이스 : 확장 가능
+- 타입별칭 : 확장 불가능
+> 공식 문서에서는 타입 별칭보다 확장이 가능한 인터페이스를 권장하고 있다.
