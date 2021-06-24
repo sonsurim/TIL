@@ -33,4 +33,13 @@
 - [x] [TypeScript_type 정리](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_type.md)
 - [x] [TypeScript_interface 정리](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_interface.md)
 - [x] [TypeScript_type-aliases 정리](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_type-aliases.md)
+
+#### 6월 24일
+- [x] TypeScript 강의 듣기
+- [x] [TypeScript_operator 정리](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_operator.md)
+- [x] [TypeScript_enum 정리](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_enum.md)
+- [x] [JavaScript_class 정리](https://github.com/sonsurim/TIL/blob/main/JavaScript/JavaScript_class.md)
+- [x] [JavaScript_prototype 정리](https://github.com/sonsurim/TIL/blob/main/JavaScript/JavaScript_prototype.md)
+- [x] [TypeScript_class 정리](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_class.md)
+- [x] [TypeScript_generics 정리](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_generics.md)
 </details>
