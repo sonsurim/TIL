@@ -37,7 +37,9 @@
   ```
   let address: [string, number] = ['gangnam', 100];
   ```
-- Enum
+- [Enum](https://github.com/sonsurim/TIL/commit/9146bfbfa8b2b24b7f65811405eb428b08085096)
+  - 특정 값들의 집합을 의미하는 자료형
+
 - Any
   - string,number,array 등의 모든 타입
   - 실행하는 시점에 타입을 자동으로 할당
