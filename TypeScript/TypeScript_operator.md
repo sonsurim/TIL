@@ -8,6 +8,7 @@
 - **인터페이스나 특정 구조체를 유니온 타입으로 쓰는 경우, 공통 속성만 제공**
 
 ![interface](/TypeScript/images/operator_interface.png)
+
 someone에 어떤 값이 들어올 지 모르기 때문에 Developer의 skill이나 Person의 age가 아닌 보장된 속성만 제공
 
 ### 장점
