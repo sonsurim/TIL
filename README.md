@@ -45,9 +45,14 @@
 - [x] JavaScript 정리
   - [JavaScript_class](https://github.com/sonsurim/TIL/blob/main/JavaScript/JavaScript_class.md)
   - [JavaScript_prototype](https://github.com/sonsurim/TIL/blob/main/JavaScript/JavaScript_prototype.md)
-
-
 #### 6월 25일
 - [x] TypeScript 강의 듣기
 - [x] [TypeScript_generics 정리](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_generics.md)
+
+#### 6월 27일
+- [x] TypeSCript 강의 듣기
+- [x] TypeScript 정리
+  - [TypeScript_generics](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_generics.md)
+  - [TypeScript_type-inference](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_type-inference.md)
+
 </details>
