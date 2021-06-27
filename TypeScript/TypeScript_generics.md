@@ -6,6 +6,7 @@
 - 타입을 마치 함수의 파라미터의 개념으로 받음 => 함수를 호출할 때 파라미터에 대한 타입을 지정해서 보낼 수 있음
 - C#, Java 등 타입이 들어간 언어에서 가장 많이 활용됨
 - 재사용성이 높은 컴포넌트를 만들 때 자주 활용됨
+- **API를 호출해서 API 응답의 규칙을 정의할 때 가장 많이 쓰임**
 
 ## 장점
 - 정확한 타입 추론으로 실행 환경에서 제공되는 메소드 사용 가능
@@ -137,6 +138,33 @@ const obj2: Dropdown<number> = { value: 123, selected: false };
   - interface안에 특정 타입을 추가로 정의 필요
   - `value`의 타입이 전달하는 타입으로 정의
 
+### 3. Promise에서의 제네릭
+```
+// 동기 함수
+function fetchItems() {
+  let items = ['a', 'b', 'c'];
+  return items;
+}
+
+let result = fetchItems();
+console.log(result);
+
+// 비동기 함수
+function asyncFetchItems(): Promise<string[]>  {
+  let items = ['a', 'b', 'c'];
+  return new Promise( (resolve, reject) => {
+    resolve(items);
+  });
+}
+```
+Promise는 기본적으로 제네릭을 이용해서 정의되어 있음
+- **동기 함수**
+  - `fetchItems`는 return 타입을 정의하지 않아도 함수 내부에서 선언한 변수를 돌려주는 동기적인 함수이기 때문에 타입스크립트 내부에서 기본적으로 `string[]`이라는 것을 추론하고 있음
+- **비동기 함수**
+  - `new Promise`를 반환하게 되면 함수에서 기본적으로 `Promise`를 추론하지만 **Promise안의 어떤 타입인지 추론하지 못함**
+  - `asyncFetchItems` 함수를 실행하는 시점에서 타입스크립트가 `Promise`안에 들어오는 비동기 코드들에 대해서 알 수 없음 =>  (`Promise<unknown>`으로 추론됨)
+  - **비동기 처리를 통해서 return 타입이 어떤 것인지 명시해주어야 함**
+  - `Promise<string[]>` : Promise에 resolve된 `items`라는 값이 Promise의 반환타입(`<string[]>)`이 됨
 
 ## 제네릭의 타입 제한
 제네릭을 더욱 엄격하게 사용 || 제네릭에 더 많은 옵션들을 사용할 때 접근하는 방식
