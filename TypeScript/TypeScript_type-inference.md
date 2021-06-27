@@ -75,3 +75,14 @@ let detailedItem : DetailedDropdown<string> = {
 - `DetailedDropdown`에 들어온 `<K>`을 `Dropdown`의 `<K>`로 넘김
 - `DetailedDropdown`의 `<K>`가 `DetailedDropdown`의 제네릭 값`<K>`로 넘어감
 - 해당 제네릭 값이 `Dropdown`에 있는 `value`의 `T`으로 넘어감
+
+## 가장 적절한 타입 (Best Common Type)
+```
+// arr: number[]
+let arr1 = [0, 1, 2];
+
+// arr: (number | boolean)[]
+let arr2 = [0, 1, null];
+```
+- **타입스크립트에서 가장 근접한 타입을 선정하는 알고리즘**
+- 배열에 있는 타입들의 교집합이 될 수 있는 타입들을 유니온 타입으로 지정
