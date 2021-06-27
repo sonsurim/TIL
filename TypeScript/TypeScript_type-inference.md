@@ -14,17 +14,64 @@ let x = 3;
 1. TS 파일이기 때문에 VS Code 내부적으로 lauguage 서버가 동작
 2. Lauguage 서버가 동작하면서 타입을 추론 시작
 
+### 기본 동작 1 - 함수
 ```
 let a = 'abc';
 
-// b: any
 function getB (b) {
   return b;
 }
 
-// b: string (숫자 + 문자열 = 문자열)
-function getB(b = 10) {
+function getBC(b = 10) {
   let c = 'hi';
   return b + c;
-  return b;
 }
+```
+- **getB**
+  - `b (parameter)`: any
+  - `getB (return)`: any
+- **getBC**
+  - `b (parameter)`: number
+  - `getBC (return)` : string (숫자 + 문자열)
+
+### 기본 동작 2 - 인터페이스 + 제네릭
+인터페이스의 제네릭을 정의했을 때 제네릭의 값을 타입 스크립트 내부적으로 추론해서 변수에 필요한 속성들의 타입까지 보장
+```
+interface Dropdown<T> {
+  value: T;
+  title: string;
+}
+
+let shoppingItem: Dropdown<string> = {
+  value: 'abc',
+  title: 'hello'
+}
+```
+- `<T>`에 들어온 타입을 추론
+- `Dropdown<string>`이라는 타입이 `shoppingItem`이라는 변수에 할당이 되었을 때 자연스럽게 `value`의 타입까지 추론
+
+### 기본 동작 3 - 복잡한 구조
+```
+interface Dropdown<T> {
+  value: T;
+  title: string;
+}
+
+interface DetailedDropdown<K> extends Dropdown<K> {
+  description: string;
+  tag: K;
+}
+
+let detailedItem : DetailedDropdown<string> = {
+  title: 'abc',
+  description: 'ab',
+  value: 'a',
+  tag: 'a'
+}
+```
+![](/TypeScript/images/type-inference.png)
+- `DetailedDropdown`에 들어간 `<K>`가 `DetailedDropdown`에 있는 `tag: K`로도 정의
+- extends를 받았기 때문에 `DetailedDropdown`인터페이스의 속성에 `Dropdown`에 있는 `value`, `title`이 들어옴
+- `DetailedDropdown`에 들어온 `<K>`을 `Dropdown`의 `<K>`로 넘김
+- `DetailedDropdown`의 `<K>`가 `DetailedDropdown`의 제네릭 값`<K>`로 넘어감
+- 해당 제네릭 값이 `Dropdown`에 있는 `value`의 `T`으로 넘어감
