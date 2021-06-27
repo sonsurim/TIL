@@ -54,5 +54,7 @@
 - [x] TypeScript 정리
   - [TypeScript_generics](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_generics.md)
   - [TypeScript_type-inference](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_type-inference.md)
-
+  - [TypeScript_type-assertion](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_type-assertion.md)
+  - [TypeScript_type-guard](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_type-guard.md)
+  - [TypeScript_type-compatibility](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_type-compatibility.md)
 </details>
