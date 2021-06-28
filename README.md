@@ -57,7 +57,8 @@
   - [TypeScript_type-assertion](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_type-assertion.md)
   - [TypeScript_type-guard](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_type-guard.md)
   - [TypeScript_type-compatibility](https://github.com/sonsurim/TIL/blob/main/TypeScript_type-compatibility.md)
-
-  #### 6월 28일
-- [x] [Webpack Velog 정리](https://velog.io/@surim014/series/Webpack)
+#### 6월 28일
+- [x] Velog 정리
+  - [Webpack](https://velog.io/@surim014/series/Webpack)
+  - [Babel](https://velog.io/@surim014/series/Babel)
 </details>
