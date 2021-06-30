@@ -56,9 +56,16 @@
   - [TypeScript_type-inference](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_type-inference.md)
   - [TypeScript_type-assertion](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_type-assertion.md)
   - [TypeScript_type-guard](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_type-guard.md)
-  - [TypeScript_type-compatibility](https://github.com/sonsurim/TIL/blob/main/TypeScript_type-compatibility.md)
+  - [TypeScript_type-compatibility](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_type-compatibility.md)
 #### 6월 28일
 - [x] Velog 정리
   - [Webpack](https://velog.io/@surim014/series/Webpack)
   - [Babel](https://velog.io/@surim014/series/Babel)
+
+#### 6월 30일
+- [x] TypeScript 강의 듣기
+- [x] TypeScript 정리
+  - [TypeScript_utility-type](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_utility-type.md)
+  - [TypeScript_partial](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_partial.md)
+  - [TypeScript_mapped-type](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_mapped-type.md)
 </details>
