@@ -12,9 +12,11 @@
 - 깔끔하고 간결한 방법으로 타입 정의 가능
 
 ## 종류
-### [Partial (파셜)](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_partial.md)
+### Partial (파셜)
 #### - 정의
 - **특정 타입의 부분 집합**을 만족하는 타입을 정의
+
+#### - [동작 원리](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_partial.md)
 #### - 문법
 ```
 interface Address {
