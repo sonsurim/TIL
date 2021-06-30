@@ -105,11 +105,9 @@ const son: Omit<AddressBook, 'address'| 'company'> = {
    ![](/TypeScript/images/utility3.png)
 
 #### - 개발
-1. 목록(SPA)을 서버에 요청해서 목록의 정보를 받아옴
+1. **목록(SPA)을 서버에 요청해서 목록의 정보를 받아옴**
 
-2. 프론트엔드는 백엔드에서 보내준 목록들에 대한 타입을 정의
-
-   2-1. 특정 상품에 대한 인터페이스 정의
+2. **프론트엔드는 백엔드에서 보내준 목록들에 대한 타입을 정의 (특정 상품에 대한 인터페이스 정의)**
     ```
     interface Product {
       id: number;
@@ -119,35 +117,63 @@ const son: Omit<AddressBook, 'address'| 'company'> = {
       stock: number;
     }
     ```
-    2-2. 상품 목록을 받아오기 위한 API 함수 정의
+
+3. **상품 목록을 받아오기 위한 API 함수 정의**
     ```
     function fetchProducts(): Promise<Product[]> {
       //
     }
     ```
-    2-3. 상세 정보를 나타내기 위한 함수 정의
-    - **AS-IS**
-      ```
-      interface ProductDetail {
-        id: number;
-        name: string;
-        price: number;
-      }
 
-      function displayProductDetail(shoppingItem: ProductDetail) {
-        // ...
-      }
-      ```
-      - `shoppingItem`의 타입은 `id,name,price`만 사용
-      - → Product의 일부만 사용하기 때문에 기존 방식으로는 Product 인터페이스 재사용 불가
-      - → 중복된 코드 증가
+4. **상세 정보를 나타내기 위한 함수 정의**
+  - **AS-IS**
+    ```
+    interface ProductDetail {
+      id: number;
+      name: string;
+      price: number;
+    }
+    function displayProductDetail(shoppingItem: ProductDetail) {
+      // ...
+    }
+    ```
+    - `shoppingItem`의 타입은 `id,name,price`만 사용
+    - → Product의 일부만 사용하기 때문에 기존 방식으로는 Product 인터페이스 재사용 불가
+    - → 중복된 코드 증가
+  - **TO-BE**
+    ```
+    type ShoppingItem = Pick<Product, 'id'| 'name' | 'price'>
+    function pickDisplayProductDetail( shoppingItem: ShoppingItem) {
+      // ...
+    }
+    ```
+    - `shoppingItem`은 `Pick`으로 손쉽게 Product에서 `id, name, price`를뽑아온 타입 정의
 
-    - **TO-BE**
-      ```
-      type ShoppingItem = Pick<Product, 'id'| 'name' | 'price'>
+5. **상품의 정보를 업데이트(put)하는 함수 정의**
+   - `Product` 인터페이스 중 어느것이든 업데이트 할 수 있음 (업데이트 항목은 랜덤)
+  - **AS-IS**
+    ```
+    interface updateProduct {
+      id?: number;
+      name?: string;
+      price?: number;
+      brand?: string;
+      stock?: number;
+    }
 
-      function pickDisplayProductDetail( shoppingItem: ShoppingItem) {
-        // ...
-      }
-      ```
-      - `shoppingItem`은 `Pick`으로 손쉽게 Product에서 `id, name, price`를 뽑아온 타입 정의
+    function updateProductItem(productItem: updateProduct) {
+      // ...
+    }
+    ```
+    - `Product` 인터페이스를 그대로 작성 후 옵셔널 타입으로 변경
+    - → 중복된 코드 증가
+
+  - **TO-BE**
+    ```
+    type partialUpdateProduct = Partial<Product>
+
+    function partialUpdateProductItem(productItem: Partial<Product>) {
+      // ...
+    }
+    ```
+    - 기존 `Product` 인터페이스를 재사용해서 모든 속성을 옵셔널 처리
