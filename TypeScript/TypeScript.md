@@ -15,6 +15,12 @@
   - 타입에 맞는 메소드 제공
   - 메소드의 자동 완성 제공
 
+### 자바스크립트 코드에 타입스크립트를 적용할 때 주의사항
+- 기능적인 변경은 절대 하지 않기
+- 테스트 코드가 없을 때는 함부로 타입스크립트를 적용하지 않기
+- 처음부터 타입을 엄격하게 적용하지 않기 (점진적으로 static 레벨을 증가)
+  - `string`인 경우, `any`로 설정하고 컴파일을 돌렸을 때 에러가 안나는 수준만 먼저 적용 후 점진적으로 구체화
+
 ### 참고 사이트
 - [TypeScript Playground](https://www.typescriptlang.org/play) : ts를 js로 바로 컴파일해서 테스트 해볼 수 있는 사이트
 - [Babel Try It Out!](https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&corejs=3.6&spec=false&loose=false&code_lz=Q&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=env%2Creact%2Cstage-2&prettier=false&targets=&version=7.14.6&externalPlugins=) : ES6문법을 컴파일해서 테스트해볼 수 있는 사이트
