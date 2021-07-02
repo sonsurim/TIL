@@ -12,7 +12,6 @@
 <summary> 2021년 6월 </summary>
 
 #### 6월 19일
-
 - [x] [TIL 저장소 정리](https://github.com/sonsurim/TIL)
 
 #### 6월 21일
@@ -67,4 +66,11 @@
   - [TypeScript_utility-type](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_utility-type.md)
   - [TypeScript_partial](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_partial.md)
   - [TypeScript_mapped-type](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_mapped-type.md)
+</details>
+
+<details>
+<summary> 2021년 7월 </summary>
+
+#### 7월 1일
+- [x] TypeScript 강의 듣기
 </details>
