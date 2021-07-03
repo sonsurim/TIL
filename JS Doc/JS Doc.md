@@ -1,6 +1,9 @@
 # JS Doc
 
-## Javscript에서의 타입 정의
+## 정의
+- JS 파일에 타입스크립트 language 서버를 실행하여 타입스크립트를 사용할 수 있는 환경 설정
+
+## 장점
 - JS Doc + ts-check의 기능을 이용해 JS 타입을 보완
 ```
 // @ts-check
