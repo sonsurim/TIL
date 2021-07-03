@@ -8,6 +8,7 @@
     "target": "ES5",
     "outDir": "./built",
     "moduleResolution": "Node",
+    "lib": ["ES2015", "DOM", "DOM.Iterable"],
     "checkJs": true,
     "noImplicitAny": true
   },
@@ -39,6 +40,10 @@
 }
 ```
 - `Promise`를 인식시켜주기 위한 옵션
+
+### lib
+- 라이브러리 배열
+- `"lib":["ES2015","DOM","DOM.Iterable"]` : `Promise`, `DOM` 관련 에러가 뜨지 않게 해주는 설정
 
 ### checkJs : Boolean
 - @ts-check처럼 자바스크립트에서 타입스크립트의 기능들을 활용할 수 있음
