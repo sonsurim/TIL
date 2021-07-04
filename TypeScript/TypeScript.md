@@ -26,6 +26,18 @@
 ### 타입스크립트에서 ES Lint를 사용하는 이유
 - `TS Lint`보다 기존의 `ES Lint`가 더 성능이 좋아서 `ES Lint` + `TS Lint`를 얹혀서 사용
 
+### 외부 라이브러리 모듈화
+- **외부 라이브러리 모듈화가 필요한 이유**
+  - 자바스크립트 라이브러리를 타입스크립트에서 인식하기 위해
+
+- **동작**
+  - `node_modules` 밑에 기본적으로 `@types`디렉토리 밑에 정의되어 있는 `index.d.ts`를 찾아감
+
+- **특징**
+  - `axios` 같은 잘 정의되어 있는 라이브러리는 해당 라이브러리  디렉토리 밑에 `index.d.ts` 파일이 있음
+  - 라이브러리 내부에 `index.d.ts`가 제공되지 않는 경우,  `@types` 라이브러리를 이용하여 제공받음
+  - `@types` 라이브러리가 제공되지 않는 경우, `ts.config. json`에 `typeRoots`라는 속성으로 따로 정의
+
 ### 참고 사이트
 - [TypeScript Playground](https://www.typescriptlang.org/play) : ts를 js로 바로 컴파일해서 테스트 해볼 수 있는 사이트
 - [Babel Try It Out!](https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&corejs=3.6&spec=false&loose=false&code_lz=Q&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=env%2Creact%2Cstage-2&prettier=false&targets=&version=7.14.6&externalPlugins=) : ES6문법을 컴파일해서 테스트해볼 수 있는 사이트
