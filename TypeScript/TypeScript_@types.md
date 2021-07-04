@@ -6,7 +6,11 @@
 ## 사용 이유
 - 자바스크립트로 만들어진 써드 파티 라이브러리(jQuery, lodash, chart 등)를 타입스크립트에서 사용하려면 각 기능에 대한 타입이 정의되어 있어야 함
 
-## 예시
+## 내부 구조
+- 일반적으로 `index.d.ts` 파일과 `package.json` 파일로 구성
+- `package.json` 파일 안에는 `types` 속성이 정의
+
+## 사용 예시
 ```
 import $ from 'jquery';
 
