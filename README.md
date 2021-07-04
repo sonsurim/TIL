@@ -73,4 +73,24 @@
 
 #### 7월 1일
 - [x] TypeScript 강의 듣기
+
+#### 7월 3일
+- [x] TypeScript 강의 듣기
+- [x] TypeScript 정리
+  - [JS Doc](https://github.com/sonsurim/TIL/tree/main/JS%20Doc)
+  - [tsconfig.json](https://github.com/sonsurim/TIL/blob/main/TypeScript/tsconfig.json.md)
+  - [TypeScript](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript.md)
+  - [TypeScript_practice](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_practice.md)
+
+#### 7월 4일
+- [x] TypeScript 강의 듣기
+- [ ] TypeScript 정리
+  - [JavaScript_function](https://github.com/sonsurim/TIL/blob/main/JavaScript/JavaScript_function.md)
+  - [TypeSCript_type](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_type.md)
+  - [TypeScript_practice](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_practice.md)
+  - [Babel](https://github.com/sonsurim/TIL/blob/main/Babel/Babel.md)
+  - [ES Lint](https://github.com/sonsurim/TIL/blob/main/ES%20Lint/ESLint.md)
+  - [.eslintrc](https://github.com/sonsurim/TIL/blob/main/ES%20Lint/.eslintrc.md)
+  - [Prettier](https://github.com/sonsurim/TIL/blob/main/Prettier/Prettier.md)
+  - [TypeScript_@types](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_%40types.md)
 </details>
