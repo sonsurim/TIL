@@ -10,7 +10,8 @@
     "moduleResolution": "Node",
     "lib": ["ES2015", "DOM", "DOM.Iterable"],
     "checkJs": true,
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "typeRoots": ["./node_modules/@types", "types"]
   },
   "include": ["./src/**/*"]
 }
@@ -57,3 +58,11 @@
 - 프로젝트 기준으로 타입스크립트를 컴파일할 위치(범위)
 - 기본값은 `["**/*"]`
 - `["./src/**/*"]` : src 폴더 밑의 모든 파일을 대상으로 함
+
+## typeRoots
+- `@types` 라이브러리를 제공하지 않아 직접 선언을 해야할 때, 폴더를 지정하면 해당 폴더의 타입을 해석해주는 속성
+```
+"typeRoots": ["./node_modules/@types", "./types"]
+```
+- 기본값 : ["./node_modules/@types"]
+  - `node_modules` 하위 `@types`라는 폴더 안의 `index.d.ts`를 가져옴
