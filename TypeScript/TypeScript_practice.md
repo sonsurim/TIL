@@ -179,6 +179,30 @@ function fetchCountryInfo(countryCode: string, status: CovidStatus) {
   ```
   - `deathsTotal`이 `Element`타입을 더욱 구체화시킨 `HTMLParagraphElement`라고 타입 단언
 
+## 외부 라이브러리 모듈화
+```
+// index.html
+<script src="https://unpkg.com/axios/disaxios.min.js"></script>
+```
+### 라이브러리 모듈화 방법
+- 라이브러리 로딩
+  ```
+  import 변수명 from '라이브러리 이름';
+  ```
+- 변수, 함수 임포트 문법
+  ```
+  import {} from '파일 상대 경로';
+  ```
+
+### 1. 라이브러리 설치
+```
+npm i axios
+```
+
+### 2. 라이브러리 로딩
+```
+import axios from 'axios';
+```
 - - -
 ## 타입스크립트 에러 디버깅 방법
 ![](/TypeScript/images/ts_error.png)
