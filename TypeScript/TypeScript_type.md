@@ -56,6 +56,15 @@
   };
   ```
 
+- Element
+  - `Element`: element 중 가장 상위에 있는 타입 구조체
+  - `HTMLElement`: `Element` 하위에 상속을 받아 확장한 타입
+  - `HTMLParagraphElement`: `HTMLElement`를 더 구체화 시킨 타입 (`p`태그)
+  - `HTMLSpanElement`: `HTMLElement`를 태그별로 더 구체화시킨 타입 (`span`태그)
+  ```
+  let a: Element | HTMLElement | HTMLParagraphElement
+  ```
+
 - Null
 - Undefined
 - Never
