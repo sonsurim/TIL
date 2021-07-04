@@ -47,23 +47,30 @@ module.exports = {
 ```
 
 ### 4. VSCode ESLint 플러그인 관련 설정
-`cmd + shift + P` 단축키로 VSCode Open Settings(json) 열어서 settings.json 파일의 내용에 ESLint 플러그인 관련 설정 추가
+- ESLint 플러그인 설치
+- `cmd + shift + P` 단축키로 VSCode Open Settings(json) 열어서 settings.json 파일의 내용에 ESLint 플러그인 관련 설정 추가
   ```
   {
-  "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-  },
-  "eslint.alwaysShowStatus": true,
-  "eslint.workingDirectories": [
-      {"mode": "auto"}
-  ],
-  "eslint.validate": [
-      "javascript",
-      "typescript"
-  ],
-}
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.alwaysShowStatus": true,
+    "eslint.workingDirectories": [
+        {"mode": "auto"}
+    ],
+    "eslint.validate": [
+        "javascript",
+        "typescript"
+    ],
+  }
   ```
-### 5. [타입스크립트 설정 파일(tsconfig.json) 생성 및 기본 값 추가](https://www.typescriptlang.org/tsconfig)
+
+### 5. ESLint ignore 파일 추가
+```
+.eslintignore
+node_modules
+```
+### 6. [타입스크립트 설정 파일(tsconfig.json) 생성 및 기본 값 추가](https://www.typescriptlang.org/tsconfig)
 ```
 {
   "compilerOptions": {
@@ -76,7 +83,7 @@ module.exports = {
 }
 ```
 
-### 6. `tsc` 명령어로 타입스크립트 컴파일
+### 7. `tsc` 명령어로 타입스크립트 컴파일
 ```
 tsc
 ```
