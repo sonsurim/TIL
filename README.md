@@ -96,4 +96,8 @@
 
 #### 7월 5일
 - [x] TypeScript 강의 듣기
+
+#### 7월 6일
+- [x] TypeScript 강의 듣기
+- [x] [JavaScript_reduce 정리](https://github.com/sonsurim/TIL/blob/main/JavaScript/JavaScript_reduce.md)
 </details>
