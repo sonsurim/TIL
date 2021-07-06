@@ -11,7 +11,11 @@
     "lib": ["ES2015", "DOM", "DOM.Iterable"],
     "checkJs": true,
     "noImplicitAny": true,
-    "typeRoots": ["./node_modules/@types", "types"]
+    "typeRoots": ["./node_modules/@types", "types"],
+    "strict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true
   },
   "include": ["./src/**/*"]
 }
@@ -66,3 +70,17 @@
 ```
 - 기본값 : ["./node_modules/@types"]
   - `node_modules` 하위 `@types`라는 폴더 안의 `index.d.ts`를 가져옴
+
+## strict
+- `strict: true`: `strict`와 관련된 속성들이 모두 true로 됨
+### 장점
+- 추후에 발생할 오류 예방
+### strict Options
+타입을 정의해놓은 코드에서 더 강력하게 타입을 정의할 수 있게 동작을 점검해주는 옵션
+
+  - **strictNullChecks**
+  - strictFunctionTypes
+  - strictBindCallApply
+  - strictPropertyInitialization
+  - noImplicitThis
+  - alwaysStrict
