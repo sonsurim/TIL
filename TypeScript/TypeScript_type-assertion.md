@@ -49,3 +49,14 @@ let div = document.querySelector('div') as HTMLDivElement  // div: HTMLDivElemen
 div.innerText;
 ```
 - 타입 단언을 통해 따로 확인 절차 거칠 필요 없이 바로 DOM API 사용 가능
+
+### Not Null Assertion (Null이 아니다라는 타입 단언)
+```
+let userList = $('.userList')
+
+userList!.innerText = 'hi';
+```
+- `document.querySelector`의 기본적인 반환 타입은 `Element | null`을 반환함
+- 변수 뒤의 `!`기호로 `null`이 아니라고 타입 단언
+- **추후 에러가 발생할 수 있어 확신이 있을 경우에만 사용!**
+- `!`보다 `?(옵셔널 체이닝 연산자)` 사용을 권장
