@@ -99,5 +99,11 @@
 
 #### 7월 6일
 - [x] TypeScript 강의 듣기
-- [x] [JavaScript_reduce 정리](https://github.com/sonsurim/TIL/blob/main/JavaScript/JavaScript_reduce.md)
+- [x] JavaScript 정리
+  - [JavaScript_reduce](https://github.com/sonsurim/TIL/blob/main/JavaScript/JavaScript_reduce.md)
+  - [JavaScript_destructuring](https://github.com/sonsurim/TIL/blob/main/JavaScript/JavaScript_destructuring.md)
+  - [JavaScript_async&await](https://github.com/sonsurim/TIL/blob/main/JavaScript/JavaScript_async&await.md)
+  - [tsconfig.json](https://github.com/sonsurim/TIL/blob/main/TypeScript/tsconfig.json.md)
+  - [TypeScript_operator](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_operator.md)
+  - [TypeScript_type-assertion](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_type-assertion.md)
 </details>
