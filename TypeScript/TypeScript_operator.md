@@ -74,3 +74,17 @@ function askSomeone(someone: Developer & Person) {
 ![intersection3](/TypeScript/images/intersection3.png)
 - `Developer`와 `Person`의 속성들을 모두 합친 하나의 타입만 할당 가능
 - 두개의 타입를 모두 포함하는 새로운 타입을 만들게 됨
+
+
+## Optional Chaining Operator (옵셔널 체이닝 연산자)
+```
+let userList = $('.userList')
+
+userList?.innerText = 'hi';
+
+if ( userList === null || userList === undefined) {
+  return;
+} else {
+  userList //Element
+}
+```
