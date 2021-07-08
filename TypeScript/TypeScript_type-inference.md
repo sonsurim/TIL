@@ -69,7 +69,8 @@ let detailedItem : DetailedDropdown<string> = {
   tag: 'a'
 }
 ```
-![](/TypeScript/images/type-inference.png)
+<img src="./images/type-inference.png" width="600">
+
 - `DetailedDropdown`에 들어간 `<K>`가 `DetailedDropdown`에 있는 `tag: K`로도 정의
 - extends를 받았기 때문에 `DetailedDropdown`인터페이스의 속성에 `Dropdown`에 있는 `value`, `title`이 들어옴
 - `DetailedDropdown`에 들어온 `<K>`을 `Dropdown`의 `<K>`로 넘김

@@ -169,7 +169,8 @@ Promise는 기본적으로 제네릭을 이용해서 정의되어 있음
 ## 제네릭의 타입 제한
 제네릭을 더욱 엄격하게 사용 || 제네릭에 더 많은 옵션들을 사용할 때 접근하는 방식
 ### 1. 제네릭에 특정 타입의 모습 지정
-![](/TypeScript/images/generic.png)
+<img src="./images/generic.png" width="600" />
+
 - `logTextLength`에 문자열을 넣었지만 typescript입장에서는 `logTextLength`에 어떤 타입이 들어올지 알 수 없기 때문에 `.length`라는 메소드가 있다는 것은 개발자만 알 수  있음
 
 ```

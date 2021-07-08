@@ -17,7 +17,7 @@ enum Shoes {
 let myShoes = Shoes.Nike;
 console.log(myShoes); // 0
 ```
-![](/TypeScript/images/enum.png)
+<img src="./images/enum.png" width="600" />
 
 - 값을 이용하지 않는 경우, 자동으로 숫자를 할당
 
@@ -34,7 +34,8 @@ console.log(myShoes); // 10
 - 다른 숫자를 초기화를 하는 경우 자동으로 1씩 증가해서 할당
 
 ## 문자형 이넘
-![](/TypeScript/images/enum_text.png)
+<img src="./images/enum_text.png" width="600" />
+
 ```
 enum Shoes {
   Nike = '나이키',
@@ -47,43 +48,43 @@ console.log(myShoes); // '나이키'
 
 ## 활용 예시
 - **AS-IS (string)**
-```
-function askQuestion(answer: string) {
-  if (answer === 'yes') {
-  console.log('정답입니다!');
-  }
-  if (answer === 'no') {
-    console.log('오답입니다!');
-  }
-}
+    ```
+    function askQuestion(answer: string) {
+      if (answer === 'yes') {
+      console.log('정답입니다!');
+      }
+      if (answer === 'no') {
+        console.log('오답입니다!');
+      }
+    }
 
-askQuestion('예스');
-askQuestion('Y');
-askQuestion('yes');
-```
-다양한 형태의 문자열을 넣을 수 있음
+    askQuestion('예스');
+    askQuestion('Y');
+    askQuestion('yes');
+    ```
+    다양한 형태의 문자열을 넣을 수 있음
 
 - **To-BE (Enum)**
-```
-enum Answer {
-  Yes = 'Y',
-  No = 'N'
-}
+    ```
+    enum Answer {
+      Yes = 'Y',
+      No = 'N'
+    }
 
-function askQuestion(answer: Answer) {
-  if (answer === Answer.Yes) {
-  console.log('정답입니다!');
-  }
-  if (answer === Answer.No) {
-    console.log('오답입니다!');
-  }
-}
+    function askQuestion(answer: Answer) {
+      if (answer === Answer.Yes) {
+      console.log('정답입니다!');
+      }
+      if (answer === Answer.No) {
+        console.log('오답입니다!');
+      }
+    }
 
-askQuestion(Answer.Yes);
-askQuestion('Yes');       // Error!
-askQuestion('예스');       // Error!
-askQuestion('Y');         // Error!
-```
-- 문자열을 구체적인 값으로 지정
-- 이넘을 이용한 정의기 때문에 'Yes'도 오류 발생
-- 이넘에서 제공하는 데이터만 넘길 수 있음
+    askQuestion(Answer.Yes);
+    askQuestion('Yes');       // Error!
+    askQuestion('예스');       // Error!
+    askQuestion('Y');         // Error!
+    ```
+    - 문자열을 구체적인 값으로 지정
+    - 이넘을 이용한 정의기 때문에 'Yes'도 오류 발생
+    - 이넘에서 제공하는 데이터만 넘길 수 있음

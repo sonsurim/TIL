@@ -26,30 +26,27 @@ npm i -D @types/jquery
 
 ## @types 라이브러리(타입 정의 파일)를 제공하지 않는 경우
 1. tsconfig에 `typeRoots` 속성 선언
-  ```
-  "typeRoots": ["./node_modules/@types", "./types"]
-  ```
+    ```
+    "typeRoots": ["./node_modules/@types", "./  types"]
+    ```
 2. 프로젝트 루트에 `types` 디렉토리 생성
-
-![](images/@types1.png)
+<img src="images/@types1.png" width="600" />
 
 3. `types` 디렉토리에 `@types`라이브러리를 제공하지 않는 라이브러리명의 디렉토리 생성
-
-![](images/@types2.png)
+<img src="images/@types2.png" width="600" />
 
 4. 해당 디렉토리에 `index.d.ts`파일 생성
-
-![](images/@types3.png)
+<img src="images/@types3.png" width="600" />
 
 5. `index.d.ts`에 해당하는 라이브러리 모듈 선언
-```
-declare module 'chart.js';
-```
+    ```
+    declare module 'chart.js';
+    ```
 
 6. +) 추가로 타입을 따로 지정도 가능
-```
-declare module 'chart.js' {
-  interface MyChart {}
-}
-```
+    ```
+    declare module 'chart.js' {
+      interface MyChart {}
+    }
+    ```
 - [d.ts 파일을 제작하는 방법](https://www.typescriptlang.org/docs/handbook/declaration-files/dts-from-js.html)

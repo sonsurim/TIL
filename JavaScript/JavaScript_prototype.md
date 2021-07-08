@@ -38,5 +38,4 @@ admin // {role: 'admin'}
 ### - Built-in JavaScript API (JavaScript Native API)
 - 기본적으로 객체를 생성하면 상위의 프로토타입이 Object라고 하는 최상위 프로토타입 객체가 있기 때문에 Object 객체에 정의되어 있는 메소드와 속성들 사용가능했었음
 
-![](images/js_prototype.png)
-
+<img src="images/js_prototype.png" width="600" />

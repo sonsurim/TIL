@@ -205,8 +205,9 @@ import axios from 'axios';
 ```
 - - -
 ## 타입스크립트 에러 디버깅 방법
-![](/TypeScript/images/ts_error.png)
+<img src="./images/ts_error.png" width="600">
+
 1. **(ts2705)** 에러코드 구글링
 2. 에러메시지 마지막 문장 복사해서 구글링
 
-![](/TypeScript/images/ts_solution.png)
+<img src="./images/ts_solution.png" width="600">

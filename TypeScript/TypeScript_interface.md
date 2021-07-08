@@ -78,7 +78,7 @@ let obj: StringRegexDictionary = {
 }
 ```
 - object로 메소드를 실행하는 경우, TS에서 자동으로 타입 추론
-  ![dictionary_pattern](/TypeScript/images/dictionary_pattern.png)
+<img src="./images/dictionary_pattern.png" width="600" />
 
 ### 인터페이스 확장
 - 인터페이스를 상속받아서 기존에 있었던 것보다 더 확장해서 사용
@@ -106,9 +106,9 @@ const surim: Developer = {
 ## 인터페이스 vs 타입 별칭
 ### 1. 타입의 모습
 - 인터페이스
-![인터페이스](/TypeScript/images/interface.png)
+<img src="./images/interface.png" width="600" />
 - 타입 별칭
-![타입별칭](/TypeScript/images/type-aliases.png)
+<img src="./images/type-aliases.png" width="600" />
 
 ### 2. 타입의 확장
 - 인터페이스 : 확장 가능

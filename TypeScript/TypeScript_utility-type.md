@@ -98,13 +98,13 @@ const son: Omit<AddressBook, 'address'| 'company'> = {
 
 #### - 화면
 1. '이불' 검색
-   ![](/TypeScript/images/utility2.png)
+<img src="./images/utility2.png" width="600">
 
 2. 상품목록 노출
-   ![](/TypeScript/images/utility.png)
+<img src="./images/utility.png" width="600">
 
 3. 상품 클릭 → 상품의 상세 정보 노출
-   ![](/TypeScript/images/utility3.png)
+<img src="./images/utility3.png" width="600">
 
 #### - 개발
 1. **목록(SPA)을 서버에 요청해서 목록의 정보를 받아옴**

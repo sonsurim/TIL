@@ -23,9 +23,10 @@ function getTodo(todo: Todo) {
 ## 인터페이스 vs 타입 별칭
 ### 1. 타입의 모습
 - 인터페이스
-![인터페이스](/TypeScript/images/interface.png)
+<img src="./images/interface.png" width="600">
+
 - 타입 별칭
-![타입별칭](/TypeScript/images/type-aliases.png)
+<img src="./images/type-aliases.png" width="600">
 
 ### 2. 타입의 확장
 - 인터페이스 : 확장 가능

@@ -32,6 +32,6 @@
   - class를 생성했을 때 constructor안의 로직이 실행
 
 
-![](./images/js_class.png)
+<img src="./images/js_class.png" width="600" />
 - 클래스로 초기화 시키고 인스턴스를 만들어낸 객체를 변수에 담을 수 있음
 
