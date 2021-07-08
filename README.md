@@ -20,7 +20,7 @@
   - [TypeScript](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript.md)
   - [TypeScript_practice](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_practice.md)
   - [tsconfig.json](https://github.com/sonsurim/TIL/blob/main/TypeScript/tsconfig.json.md)
-- [x] [JS Doc 정리](https://github.com/sonsurim/TIL/tree/main/JS%20Doc)
+- [x] [JSDoc 정리](https://github.com/sonsurim/TIL/tree/main/JSDoc)
 
 #### 6월 22일
 - [x] TypeScript 강의 듣기
@@ -76,8 +76,8 @@
 
 #### 7월 3일
 - [x] TypeScript 강의 듣기
+- [x] [JSDoc 정리](https://github.com/sonsurim/TIL/tree/main/JSDoc)
 - [x] TypeScript 정리
-  - [JS Doc](https://github.com/sonsurim/TIL/tree/main/JS%20Doc)
   - [tsconfig.json](https://github.com/sonsurim/TIL/blob/main/TypeScript/tsconfig.json.md)
   - [TypeScript](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript.md)
   - [TypeScript_practice](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_practice.md)
@@ -106,4 +106,15 @@
   - [tsconfig.json](https://github.com/sonsurim/TIL/blob/main/TypeScript/tsconfig.json.md)
   - [TypeScript_operator](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_operator.md)
   - [TypeScript_type-assertion](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_type-assertion.md)
+
+#### 7월 8일
+- [x] TIL 이미지 태그 전체 수정
+- [x] Interactive Web 강의 듣기
+- [x] Interactive Web 정리
+  - [Interactive Web_requestAnimationFrame]()
+  - [Interactive Web_tip]()
+- [x] Interactive Web 실습
+  - [실습 환경 구성, README 작성](https://github.com/sonsurim/interactive-web)
+  - [마우스를 활용한 인터랙티브](https://github.com/sonsurim/interactive-web/tree/master/practice/01)
+  - [픽스낫띵 효과 따라해보기](https://github.com/sonsurim/interactive-web/pull/1)
 </details>
