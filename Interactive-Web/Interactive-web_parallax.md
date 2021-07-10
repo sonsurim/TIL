@@ -59,7 +59,7 @@ function scrollFunc(e) {
 
 window.addEventListener('scroll', scrollFunc, false);
 ```
-[구현예시 보러가기](https://sonsurim.github.io/interactive-web/practice/05/01_progress-width/)
+[구현예시 보러가기(private)](https://sonsurim.github.io/interactive-web/practice/05/01_progress-width/)
 
 `per = Math.round(scrollTop / (document.documentElement.scrollHeight - window.innerHeight) )* 100;
 `
@@ -71,7 +71,7 @@ window.addEventListener('scroll', scrollFunc, false);
 ```
 cloudWrap.style.transform = `translate(0, ${srollTop / 1.2}px)`
 ```
-[구현예시 보러가기](https://sonsurim.github.io/interactive-web/practice/05/02_progress-height/)
+[구현예시 보러가기(private)](https://sonsurim.github.io/interactive-web/practice/05/02_progress-height/)
 - 윈도우 기준, 스크롤 한 번에 100px씩 이동
 - 다른 요소들이 100씩 이동할 때 지정한 오브젝트만 100 / 1.2 = 83.3씩 이동 → **이동 속도 감소** → 움직이는 느낌
 
@@ -113,7 +113,7 @@ window.addEventListener('scroll', function(e) {
 })
   </script>
 ```
-[구현예시 보러가기](https://sonsurim.github.io/interactive-web/practice/05/03_brunch/)
+[구현예시 보러가기(private)](https://sonsurim.github.io/interactive-web/practice/05/03_brunch/)
 - 상단의 이미지는 고정
 - 이미지 위에 존재할 컨텐츠 배경색이 있는 레이어 존재 필요
 
