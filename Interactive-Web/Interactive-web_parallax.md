@@ -117,5 +117,6 @@ window.addEventListener('scroll', function(e) {
 
 <img src="./images/brunch_1.png" width="600">
 <img src="./images/brunch_2.png" width="600">
+
 - 스크롤이 될 때마다 스케일이 커짐 → 그 위에 텍스트 레이어가 올라옴
 - 이미지 아래에 있는 컨텐츠가 **이미지 컨텐츠 위로 덮여야 함**
