@@ -5,9 +5,7 @@
 - 앞의 레이어는 빠르게 움직이고 뒤의 레이어는 느리게 움직임
 
 ## 구성 요소
-< 예시 >
 <img src="./images/picture.png" width="600">
-사람이 걸어가는 모습
 
 ### **1. 배경**: 거의 움직이지 않을 백그라운드 배경
   <img src="./images/background.png" width="600">
