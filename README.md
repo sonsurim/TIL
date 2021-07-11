@@ -115,18 +115,24 @@
   - [Interactive Web_tip](https://github.com/sonsurim/TIL/blob/main/Interactive-Web/Interactive-web_tip.md)
 - [x] Interactive Web 실습 (private)
   - [실습 환경 구성, README 작성](https://github.com/sonsurim/interactive-web)
-  - [마우스를 활용한 인터랙티브](https://github.com/sonsurim/interactive-web/tree/master/practice/01)
-  - [픽스낫띵 효과 따라해보기](https://github.com/sonsurim/interactive-web/pull/1)
+  - [마우스를 활용한 인터랙티브](https://github.com/sonsurim/interactive-web_private/tree/master/practice/01)
+  - [픽스낫띵 효과 따라해보기](https://github.com/sonsurim/interactive-web_private/pull/1)
 
 #### 7월 10일
 - [x] Interactive Web 강의 듣기
 - [x] Interactive Web 정리
   - [Interactive Web_parallax](https://github.com/sonsurim/TIL/blob/main/Interactive-Web/Interactive-web_parallax.md)
 - [x] Interactive Web 실습 (private)
-  - [뉴욕 타임스 all birds 효과 따라해보기](https://github.com/sonsurim/interactive-web/tree/03_birds/practice/03)
-  - [마우스 효과 구현해보기](https://github.com/sonsurim/interactive-web/tree/04_mouse-over/practice/04)
-  - [패럴랙스 - 프로그레스바 구현해보기](https://github.com/sonsurim/interactive-web/tree/05_parallax/practice/05/01_progress-width)
-  - [패럴랙스 - 세로 트랜지션 적용해보기](https://github.com/sonsurim/interactive-web/tree/05_parallax/practice/05/02_progress-height)
-  - [패럴랙스 - 브런치 스타일 구현해보기](https://github.com/sonsurim/interactive-web/tree/05_parallax/practice/05/03_brunch)
-  - [패럴랙스 - 입체감 있는 스타일 구현해보기](https://github.com/sonsurim/interactive-web/tree/05_parallax/practice/05/04_solid)
+  - [뉴욕 타임스 all birds 효과 따라해보기](https://github.com/sonsurim/interactive-web_private/tree/03_birds/practice/03)
+  - [마우스 효과 구현해보기](https://github.com/sonsurim/interactive-web_private/tree/04_mouse-over/practice/04)
+  - [패럴랙스 - 프로그레스바 구현해보기](https://github.com/sonsurim/interactive-web_private/tree/05_parallax/practice/05/01_progress-width)
+  - [패럴랙스 - 세로 트랜지션 적용해보기](https://github.com/sonsurim/interactive-we_private/tree/05_parallax/practice/05/02_progress-height)
+  - [패럴랙스 - 브런치 스타일 구현해보기](https://github.com/sonsurim/interactive-web_private/tree/05_parallax/practice/05/03_brunch)
+  - [패럴랙스 - 입체감 있는 스타일 구현해보기](https://github.com/sonsurim/interactive-web_private/tree/05_parallax/practice/05/04_solid)
+
+#### 7월 11일
+- [x] 프로그래머스 코딩 테스트
+- [x] Interactive Web 구현
+  - [mousemove를 활용한 사이트](https://sonsurim.github.io/interactive-web_public/01_mousemove-eyes/)
+  <img src="./Interactive-Web/images/01.png" width="300">
 </details>
