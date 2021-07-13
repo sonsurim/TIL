@@ -90,3 +90,4 @@
 위 내용은 NPM을 공부하며 개인적으로 정리한 내용입니다.
 ## 출처 📝
 - [제로초 블로그 - package.json](https://www.zerocho.com/category/NodeJS/post/5825a3caaff5c70018279975)
+- [인프런 강의 - 프론트엔드 개발자를 위한 웹팩](https://www.inflearn.com/course/%ED%94%84%EB%9F%B0%ED%8A%B8%EC%97%94%EB%93%9C-%EC%9B%B9%ED%8C%A9)
