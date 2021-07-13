@@ -135,4 +135,14 @@
 - [x] Interactive Web 구현
   - [mousemove를 활용한 사이트](https://sonsurim.github.io/interactive-web_public/01_mousemove-eyes/)
   <img src="./Interactive-Web/images/01.png" width="300">
+
+#### 7월 13일
+- [x] NPM 강의 듣기
+- [x] 문서 출처 정리
+- [x] [Node.js 정리](https://github.com/sonsurim/TIL/blob/main/Node.js/Node.js.md)
+- [x] NPM 정리
+  - [npm](https://github.com/sonsurim/TIL/blob/main/NPM/NPM.md)
+  - [npm 명령어](https://github.com/sonsurim/TIL/blob/main/NPM/NPM_command.md)
+  - [npm dependencies vs devDependencies](https://github.com/sonsurim/TIL/blob/main/NPM/NPM_dependencies.md)
+  - [npm package.json](https://github.com/sonsurim/TIL/blob/main/NPM/NPM_pacakge.josn.md)
 </details>
