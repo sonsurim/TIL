@@ -1,6 +1,6 @@
 # Interactive Web Tip
 
-## CSS 수평 가운데 정렬
+## CSS 수평 가운데 정렬 📚
 ```
 // index.css
 .element {
@@ -9,7 +9,7 @@
   left: calc(50% - 150px);
 }
 ```
-## 마우스 커서의 기준 가운데로 설정
+## 마우스 커서의 기준 가운데로 설정 📚
 - `clientX` : 브라우저에서 사용자에게 웹페이지가 보여지는 영역을 기준으로 X좌표
 - `clentY` : 브라우저에서 사용자에게 웹페이지가 보여지는 영역을 기준으로 Y좌표
 
@@ -46,7 +46,7 @@ function mouseFunc(e) {
 
   → **마우스의 기준을 중간으로 설정**
 
-## 마우스 동작 범위 줄이기 (효과 감소)
+## 마우스 동작 범위 줄이기 (효과 감소) 📚
 ```
 window.addEventListener('mousemove', mouseFunc, false);
 
@@ -58,7 +58,7 @@ function mouseFunc(e) {
 }
 ```
 
-## 부드러운 애니메이션 효과 설정
+## 부드러운 애니메이션 효과 설정 📚
 **requsetAnimationFrame** 설정
 ```
 let x = 0;
@@ -85,3 +85,8 @@ function loop() {
 
 loop();
 ```
+
+- - -
+위의 내용은 Interactive Web을 공부하며 개인적으로 정리한 내용입니다.
+## 출처 📝
+- [인프런 강의 - 몇 줄로 끝내는 인터랙티브 웹 개발 노하우 [초급편]](https://www.inflearn.com/course/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9D%B8%ED%84%B0%EB%9E%99%ED%8B%B0%EB%B8%8C-%EC%9B%B9/dashboard)

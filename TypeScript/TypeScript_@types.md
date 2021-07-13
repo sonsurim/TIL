@@ -1,16 +1,16 @@
 # @types 라이브러리
-## 정의
+## 정의 📋
 - 자바스크립트로 만들어진 라이브러리에 대한 타입이 정의되어 있는 **보조 라이브러리**
 
-## 사용 이유
+## 사용 이유 🙌
 - 자바스크립트로 만들어진 써드 파티 라이브러리(jQuery, lodash, chart 등)를 타입스크립트에서 사용하려면 각 기능에 대한 타입이 정의되어 있어야 함
 
-## 내부 구조
+## 내부 구조 🔩
 - 일반적으로 `index.d.ts` 파일과 `package.json` 파일로 구성
 - `package.json` 파일 안에는 `types` 속성이 정의
 
 > inde.d.ts? 타입의 정의만 모아놓는 파일
-## 사용 예시
+## 사용 예시 📚
 ```
 import $ from 'jquery';
 
@@ -24,7 +24,7 @@ npm i -D @types/jquery
 ```
 - 흔히 사용되는 자바스크립트 라이브러리는 대부분 `@types`라는 별칭으로 타입스크립트 추론이 가능한 보조 라이브러리를 제공
 
-## @types 라이브러리(타입 정의 파일)를 제공하지 않는 경우
+## @types 라이브러리(타입 정의 파일)를 제공하지 않는 경우 🧐
 1. tsconfig에 `typeRoots` 속성 선언
     ```
     "typeRoots": ["./node_modules/@types", "./  types"]
@@ -50,3 +50,10 @@ npm i -D @types/jquery
     }
     ```
 - [d.ts 파일을 제작하는 방법](https://www.typescriptlang.org/docs/handbook/declaration-files/dts-from-js.html)
+
+- - -
+위의 내용은 TypeScript를 공부하며 개인적으로 정리한 내용입니다.
+## 출처 📝
+- [인프런 강의 - 타입스크립트 입문 기초부터 실전까지](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%85%EB%AC%B8/dashboard)
+- [인프런 강의 - 실전 프로젝트로 배우는 타입스크립트](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8B%A4%EC%A0%84/dashboard)
+- [인프런 강의 - Vue.js + TypeScript 완벽 가이드](https://www.inflearn.com/course/vue-ts/dashboard)

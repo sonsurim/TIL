@@ -1,10 +1,10 @@
 # 패럴랙스 (parallax)
 
-## 동작 원리
+## 동작 원리 💪
 - 이미지가 레이어로 되어 있음
 - 앞의 레이어는 빠르게 움직이고 뒤의 레이어는 느리게 움직임
 
-## 구성 요소
+## 구성 요소 🔩
 <img src="./images/picture.png" width="600">
 
 ### **1. 배경**: 거의 움직이지 않을 백그라운드 배경
@@ -19,7 +19,7 @@
 ### **4. 시선**: 패럴렉스가 적용될 부분
 <img src="./images/in_sight.png" width="600">
 
-## 구현 방법
+## 구현 방법 🛠
 ### 1. 스크롤이 될 영역 만들기
 ```
 // index.css
@@ -44,7 +44,7 @@ function scrollFunc(e) {
 window.addEventListener('scroll', scrollFunc, false);
 ```
 
-## 프로그레스 바에 주로 사용되는 퍼센트값
+## 프로그레스 바에 주로 사용되는 퍼센트값 📚
 ```
 let scrollTop = 0;
 
@@ -65,7 +65,7 @@ window.addEventListener('scroll', scrollFunc, false);
 : 퍼센트값 = 현재 스크롤 탑 위치 / (문서 전체 길이 - 윈도우 창 높이 ) * 100;
 - 현재 스크롤탑 위치가 전체 화면 길이에서 몇퍼센트 내려와 있는지 구함
 
-## 스크롤 애니메이션
+## 스크롤 애니메이션 📚
 ```
 cloudWrap.style.transform = `translate(0, ${srollTop / 1.2}px)`
 ```
@@ -73,7 +73,7 @@ cloudWrap.style.transform = `translate(0, ${srollTop / 1.2}px)`
 - 윈도우 기준, 스크롤 한 번에 100px씩 이동
 - 다른 요소들이 100씩 이동할 때 지정한 오브젝트만 100 / 1.2 = 83.3씩 이동 → **이동 속도 감소** → 움직이는 느낌
 
-## 브런치 효과 구현
+## 브런치 효과 구현 📚
 ### CSS
 ```
 // index.css
@@ -120,3 +120,8 @@ window.addEventListener('scroll', function(e) {
 
 - 스크롤이 될 때마다 스케일이 커짐 → 그 위에 텍스트 레이어가 올라옴
 - 이미지 아래에 있는 컨텐츠가 **이미지 컨텐츠 위로 덮여야 함**
+
+- - -
+위의 내용은 Interactive Web을 공부하며 개인적으로 정리한 내용입니다.
+## 출처 📝
+- [인프런 강의 - 몇 줄로 끝내는 인터랙티브 웹 개발 노하우 [초급편]](https://www.inflearn.com/course/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9D%B8%ED%84%B0%EB%9E%99%ED%8B%B0%EB%B8%8C-%EC%9B%B9/dashboard)

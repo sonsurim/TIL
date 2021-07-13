@@ -1,6 +1,6 @@
 # TypeScript 연산자
 
-## 유니온 타입 (|)
+## 유니온 타입 (|) 🛠
 ### 정의
 - 특정 파라미터나 변수에 한가지 이상의 타입을 사용하고 싶을 때 파이프 연산자를 통해 사용
 
@@ -33,7 +33,7 @@ function logMessage(value: string | number) {
 }
 ```
 
-## 인터섹션 타입 (&)
+## 인터섹션 타입 (&) 🛠
 ### 정의
 - 모든 타입을 만족하는 하나의 타입
 ### 특징
@@ -65,7 +65,7 @@ function askSomeone(someone: Developer & Person) {
 ```
 - `someone`은 name, skill, age를 모두 포함한 3개의 속성을 가지는 타입으로 에러 발생 X
 
-## 유니온 타입 vs 인터섹션 타입
+## 유니온 타입 vs 인터섹션 타입 ⚖️
 ### 유니온 타입
 <img src="./images/operator2.png" width="600" >
 
@@ -79,7 +79,7 @@ function askSomeone(someone: Developer & Person) {
 - 두개의 타입를 모두 포함하는 새로운 타입을 만들게 됨
 
 
-## Optional Chaining Operator (옵셔널 체이닝 연산자)
+## Optional Chaining Operator (옵셔널 체이닝 연산자) 🛠
 ```
 let userList = $('.userList')
 
@@ -91,3 +91,10 @@ if ( userList === null || userList === undefined) {
   userList //Element
 }
 ```
+
+- - -
+위의 내용은 TypeScript를 공부하며 개인적으로 정리한 내용입니다.
+## 출처 📝
+- [인프런 강의 - 타입스크립트 입문 기초부터 실전까지](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%85%EB%AC%B8/dashboard)
+- [인프런 강의 - 실전 프로젝트로 배우는 타입스크립트](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8B%A4%EC%A0%84/dashboard)
+- [인프런 강의 - Vue.js + TypeScript 완벽 가이드](https://www.inflearn.com/course/vue-ts/dashboard)

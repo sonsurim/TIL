@@ -1,9 +1,9 @@
 # TypeScript 타입 가드
 
-## 정의
+## 정의 📋
 - 타입의 범위를 점점 줄여가며 구체화해 나가는 것
 
-## 사용 예시
+## 사용 예시 📚
 ### AS-IS
 ```
 interface Developer {
@@ -52,3 +52,10 @@ if (isDeveloper(surim)) {
 }
 ```
 - `target`이 `Developer` 타입이라고 가정하고 `skill`이라는 값이 있는 경우, `target`이 `Developser` 타입이라고 취급
+
+- - -
+위의 내용은 TypeScript를 공부하며 개인적으로 정리한 내용입니다.
+## 출처 📝
+- [인프런 강의 - 타입스크립트 입문 기초부터 실전까지](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%85%EB%AC%B8/dashboard)
+- [인프런 강의 - 실전 프로젝트로 배우는 타입스크립트](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8B%A4%EC%A0%84/dashboard)
+- [인프런 강의 - Vue.js + TypeScript 완벽 가이드](https://www.inflearn.com/course/vue-ts/dashboard)

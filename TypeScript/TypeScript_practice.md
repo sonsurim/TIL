@@ -1,6 +1,6 @@
 # TypeScript 실무 - 자바스크립트 환경을 타입스크립트로 변환하기
 
-## 타입스크립트 기본 환경 구성
+## 타입스크립트 기본 환경 구성 🛠
 ### 1. NPM 초기화
 ```
 npm init -y
@@ -101,7 +101,7 @@ tsc
 
 ### 3. 화살표 함수에 `any` 타입 정의
 
-## 타입 구체화하기
+## 타입 구체화하기 🛠
 ### 1. 유틸 함수의 타입 구체화
 ```
 // AS-IS
@@ -179,7 +179,7 @@ function fetchCountryInfo(countryCode: string, status: CovidStatus) {
   ```
   - `deathsTotal`이 `Element`타입을 더욱 구체화시킨 `HTMLParagraphElement`라고 타입 단언
 
-## 외부 라이브러리 모듈화
+## 외부 라이브러리 모듈화 🛠
 ```
 // index.html
 <script src="https://unpkg.com/axios/disaxios.min.js"></script>
@@ -204,10 +204,17 @@ npm i axios
 import axios from 'axios';
 ```
 - - -
-## 타입스크립트 에러 디버깅 방법
+## 타입스크립트 에러 디버깅 방법 🛠
 <img src="./images/ts_error.png" width="600">
 
 1. **(ts2705)** 에러코드 구글링
 2. 에러메시지 마지막 문장 복사해서 구글링
 
 <img src="./images/ts_solution.png" width="600">
+
+- - -
+위의 내용은 TypeScript를 공부하며 개인적으로 정리한 내용입니다.
+## 출처 📝
+- [인프런 강의 - 타입스크립트 입문 기초부터 실전까지](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%85%EB%AC%B8/dashboard)
+- [인프런 강의 - 실전 프로젝트로 배우는 타입스크립트](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8B%A4%EC%A0%84/dashboard)
+- [인프런 강의 - Vue.js + TypeScript 완벽 가이드](https://www.inflearn.com/course/vue-ts/dashboard)
