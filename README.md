@@ -68,7 +68,7 @@
   - [TypeScript_mapped-type](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_mapped-type.md)
 </details>
 
-<details>
+<details></details>
 <summary> 2021년 7월 </summary>
 
 #### 7월 1일
@@ -145,4 +145,14 @@
   - [npm 명령어](https://github.com/sonsurim/TIL/blob/main/NPM/NPM_command.md)
   - [npm dependencies vs devDependencies](https://github.com/sonsurim/TIL/blob/main/NPM/NPM_dependencies.md)
   - [npm package.json](https://github.com/sonsurim/TIL/blob/main/NPM/NPM_pacakge.josn.md)
+
+#### 7월 14일
+- [x] 크롬 개발자도구 강의 듣기
+- [x] [브라우저 동작 원리 정리](https://github.com/sonsurim/TIL/blob/main/Chrome-Devtool/Chrome-Devtool_Browser-works.md)
+- [x] 크롬 개발자 도구 정리
+  - [크롬 개발자도구](https://github.com/sonsurim/TIL/blob/main/Chrome-Devtool/Chrome-Devtool.md)
+  - [크롬 개발자도구 - Elements](https://github.com/sonsurim/TIL/blob/main/Chrome-Devtool/Chrome-Devtool_Elements.md)
+  - [크롬 개발자도구 - Console](https://github.com/sonsurim/TIL/blob/main/Chrome-Devtool/Chrome-Devtool_Console.md)
+  - [크롬 개발자도구 - Source](https://github.com/sonsurim/TIL/blob/main/Chrome-Devtool/Chrome-Devtool_Source.md)
+  - [크롬 개발자도구 - Network](https://github.com/sonsurim/TIL/blob/main/Chrome-Devtool/Chrome-Devtool_Network.md)
 </details>
