@@ -8,6 +8,7 @@
 4. 어떤 **HTML**에 어떤 **CSS**를 입혀야하는지 **렌더트리**로 생성
 5. 화면에 **Layout**과 **Painting**을 통해 어떤 위치에 어느정도 크기에 어떤 스타일로 표현을 할 지 결정하게 됨
 - - -
-출처
+위의 내용은 크롬 개발자도구를 공부하며 개인적으로 정리한 내용입니다.
+## 출처 📝
 - [howbrowserworks](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
 - [프로그래머스 강의 - 크롬을 활용한 프론트엔드 디버깅](https://programmers.co.kr/learn/courses/7)
