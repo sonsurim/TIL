@@ -1,5 +1,6 @@
 # Console 탭
-![console](images/console.png)
+<img src="images/console.png" width="600">
+
 ## 정의 📋
 - 자바스크립트의 작은 코드를 브라우저 자바스크립트 파서를 통해서 즉시 실행해볼 수 있는 기능을 제공
 
