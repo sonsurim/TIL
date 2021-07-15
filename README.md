@@ -155,4 +155,8 @@
   - [크롬 개발자도구 - Console](https://github.com/sonsurim/TIL/blob/main/Chrome-Devtool/Chrome-Devtool_Console.md)
   - [크롬 개발자도구 - Source](https://github.com/sonsurim/TIL/blob/main/Chrome-Devtool/Chrome-Devtool_Source.md)
   - [크롬 개발자도구 - Network](https://github.com/sonsurim/TIL/blob/main/Chrome-Devtool/Chrome-Devtool_Network.md)
+
+#### 7월 15일
+- [x] JavaScript 알고리즘 스터디 <알통> OT
+- [x] 학습계획표 재정비
 </details>
