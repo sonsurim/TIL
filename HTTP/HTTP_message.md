@@ -22,6 +22,7 @@ Accept-language: kr
 // Request Body
 ```
 #### **Request Header.** 첫번째 줄
+서버에게 요청의 종류를 알려주기 위해 사용
 - `GET` : 요청 메서드
 - `/servlet/query?a=10&b=90`: 요청 URI, 요청하는 자원의 위치를 명시해주는 부분
 - `HTTP/1.1`: HTTP 프로토콜의 버전, 웹 브라우저가 사용하는 프로토콜의 버전을 명시해주는 부분
