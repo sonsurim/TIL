@@ -68,7 +68,7 @@
   - [TypeScript_mapped-type](https://github.com/sonsurim/TIL/blob/main/TypeScript/TypeScript_mapped-type.md)
 </details>
 
-<details></details>
+<details>
 <summary> 2021년 7월 </summary>
 
 #### 7월 1일
@@ -162,8 +162,27 @@
 
 #### 7월 16일
 - [x] 학습계획표 재정비
-- [ ] 알고리즘 레퍼지토리 정리
-- [ ] 알고리즘 1,2번 문제 풀고 정리
-- [ ] JS deep dive - 프로그래밍이란
-- [ ] IT지식 기존 내용 정리
+- [x] 알고리즘 레퍼지토리 정리
+
+#### 7월 17일
+- [x] [알고리즘 1,2,3번 문제 풀고 정리](https://github.com/sonsurim/Algorithm)
+- [x] 부스트코스 - Web개발의 이해 강의 듣기
+- [x] 부스트코스 - Web개발의 이해 정리
+  - [Programming](https://github.com/sonsurim/TIL/tree/main/Programming)
+  - [Programming_lauguage](https://github.com/sonsurim/TIL/blob/main/Programming/Programming_language.md)
+  - [HTTP](https://github.com/sonsurim/TIL/tree/main/HTTP)
+  - [Web](https://github.com/sonsurim/TIL/tree/main/Web)
+  - [Web_internet](https://github.com/sonsurim/TIL/blob/main/Web/Web_internet.md)
+  - [HTTP_message](https://github.com/sonsurim/TIL/blob/main/HTTP/HTTP_message.md)
+  - [HTTP_url](https://github.com/sonsurim/TIL/blob/main/HTTP/HTTP_url.md)
+  - [HTTP_https](https://github.com/sonsurim/TIL/blob/main/HTTP/HTTP_https.md)
+
+#### 7월 18일
+- [x] [알고리즘 4,5,6번 문제 풀고 정리](https://github.com/sonsurim/Algorithm)
+- [ ] 프로그래머스 데브코스 면접 준비
+- [ ] 부스트코스 - Web개발의 이해 강의 듣기
+- [ ] 부스트코스 - Web개발의 이해 정리
+- [ ] HTTP - 인터넷 네트워크 강의 듣기
+- [ ] IT지식 도서 내용 정리
+- [ ] JS deep dive - 프로그래밍이란 도서 내용 정리
 </details>
