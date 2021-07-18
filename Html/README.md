@@ -8,6 +8,8 @@
   <tag class="title">안녕하세요</tag>
   ```
 - JavaScript와 CSS는 html 여러군데 존재
+  - JavaScript 코드는 렌더링을 방해받지 않기 위해 `body` 태그 닫히기 직전에 위치하는 것이 좋다
+  - CSS 코드는 렌더링 처리 시, 브라우저가 더 빨리 참고할 수 있게 `head`안에 위치하는 것이 좋다.
 
 ## head
 - 어떤 문서에 대한 자세한 정보들이 포함되어 있음
