@@ -178,11 +178,18 @@
   - [HTTP_https](https://github.com/sonsurim/TIL/blob/main/HTTP/HTTP_https.md)
 
 #### 7월 18일
-- [] [알고리즘 4,5,6번 문제 풀고 정리](https://github.com/sonsurim/Algorithm)
-- [ ] 프로그래머스 데브코스 면접 준비
-- [ ] 부스트코스 - Web개발의 이해 강의 듣기
-- [ ] 부스트코스 - Web개발의 이해 정리
-- [ ] HTTP - 인터넷 네트워크 강의 듣기
-- [ ] IT지식 도서 내용 정리
-- [ ] JS deep dive - 프로그래밍이란 도서 내용 정리
+- [x] [알고리즘 4,5,6번 문제 풀고 정리](https://github.com/sonsurim/Algorithm)
+- [x] 프로그래머스 데브코스 면접 준비
+- [x] 부스트코스 - Web개발의 이해 강의 듣기
+- [x] 부스트코스 - Web개발의 이해 정리
+  - [Web_frontend](https://github.com/sonsurim/TIL/blob/main/Web/Web_frontend.md)
+  - [Web_backend](https://github.com/sonsurim/TIL/blob/main/Web/Web_backend.md)
+  - [Web_browser](https://github.com/sonsurim/TIL/blob/main/Web/Web_browser.md)
+  - [web_Rendering-engine](https://github.com/sonsurim/TIL/blob/main/Web/Web_Rendering-engine.md)
+  - [Web_search-engine](https://github.com/sonsurim/TIL/blob/main/Web/Web_search-engine.md)
+  - [Web_server](https://github.com/sonsurim/TIL/blob/main/Web/Web_server.md)
+  - [Web_was](https://github.com/sonsurim/TIL/blob/main/Web/Web_was.md)
+  - [Web_dbms](https://github.com/sonsurim/TIL/blob/main/Web/Web_dbms.md)
+  - [Web_middleware](https://github.com/sonsurim/TIL/blob/main/Web/Web_middleware.md)
+  - [html](https://github.com/sonsurim/TIL/blob/main/Html)
 </details>
