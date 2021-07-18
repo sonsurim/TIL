@@ -3,7 +3,7 @@
 ## 특징 🙌
 - 렌더링 엔진은 브라우저 별로 모두 다르게 가지고 있다
 
-## 종류 ⚙️
+## 종류 🔩
 - Firefox - Gecko
 - Safari - Webkit
 - Opera - Blink
@@ -52,7 +52,41 @@
 - 동일한 부분을 제외하고 달라지는 부분(DOM 노드의 레이아웃에 영향을 주는 요소들이 바뀌게 되는 부분)만 파싱하여 렌더트리를 재배치하고 그리게 됨
 - 레이아웃과 관계 없는 스타일적인 요소만 바뀌게 될 경우, 렌더트리 재배치하는 일 없이 다시 그리는 과정만 수행
 
+## HTML 파싱 🛠
+- HTML 문서는 주로 `<`을 열고 어떤 HTML 태그를 쓰고 `>`를 닫게 되어 있음
+- 아래와 같이 HTML의 기본 형태를 **마크업**이라고도 함
+```
+<html>
+  <body>
+    <p>
+      Hello World
+    </p>
+    <div>
+      <img src="example.png"></div>
+    </div>
+  </body>
+</html>
+```
+<img src="./images/markup.png" width="600">
+
+- 위와 같은 모습으로 구성이 되어 있음
+- 트리구조를 만들어서 브라우저가 처리하게 됨
+
+  → DOM Tree
+
+### HTML 파싱 플로우 (HTML5)
+<img src="./images/html-parser.png" width="600">
+
+## CSS 파싱 🛠
+- CSS는 Key와 Value의 구조로 되어 있음
+- HTML과 다르게 CSS 코드는 브레이스로 key와 value를 지정할 수 있음
+
+<img src="./images/css-parser.png" width="600">
+
+- CSSStyleSheet, 최상위 오브젝트 아래에 어떤 룰들이 있음
+- 객체 하단 트리 구조로 CSS를 가지게 됨
 - - -
 위의 내용은 Web을 공부하며 개인적으로 정리한 내용입니다.
 ## 출처 📝
 - [부스트코스 - 웹 프로그래밍 강의](https://www.boostcourse.org/web316/lecture/16661?isDesc=false)
+- [브라우저의 동작 과정](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
