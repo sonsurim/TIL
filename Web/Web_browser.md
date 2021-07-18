@@ -41,3 +41,4 @@
 위의 내용은 Web을 공부하며 개인적으로 정리한 내용입니다.
 ## 출처 📝
 - [부스트코스 - 웹 프로그래밍 강의](https://www.boostcourse.org/web316/lecture/16661?isDesc=false)
+- [브라우저의 동작 과정](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
