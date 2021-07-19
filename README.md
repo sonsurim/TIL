@@ -192,4 +192,8 @@
   - [Web_dbms](https://github.com/sonsurim/TIL/blob/main/Web/Web_dbms.md)
   - [Web_middleware](https://github.com/sonsurim/TIL/blob/main/Web/Web_middleware.md)
   - [html](https://github.com/sonsurim/TIL/blob/main/Html)
+
+#### 7월 19일
+- [x] [알고리즘 7, 8번 문제 풀고 정리](https://github.com/sonsurim/Algorithm)
+- [x] 프로그래머스 데브코스 면접 준비
 </details>
