@@ -201,4 +201,9 @@
 - [x] 프로그래머스 데브코스 면접 준비
   - [Html](https://github.com/sonsurim/TIL/blob/main/Html)
   - [Web_dom](https://github.com/sonsurim/TIL/blob/main/Web/Web_Dom.md)
+
+#### 7월 21일
+- [x] 프로그래머스 데브코스 면접 준비
+- [x] 프로그래머스 데브코스 면접
+- [x] [알고리즘 스터디 풀이 노트 작성](https://www.notion.so/herman94/1b594177a4f441c7a350787e6feb7a07?v=aa9d7642663f465686111d6ca1aa03fa&p=76e159f2e04047429a2ccfbbf280078b)
 </details>
