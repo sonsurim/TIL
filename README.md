@@ -209,4 +209,5 @@
 
 #### 7월 22일
 - [x] 알고리즘 스터디 참석
+- [x] [알고리즘 스터디 1주차 리뷰 작성](https://github.com/sonsurim/TIL/blob/main/Altong/Altong_review-01.md)
 </details>
