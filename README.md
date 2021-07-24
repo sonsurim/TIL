@@ -212,7 +212,7 @@
 - [x] 알고리즘 스터디 참석
 - [x] [알고리즘 스터디 1주차 리뷰 작성](https://github.com/sonsurim/TIL/blob/main/Altong/Altong_review-01.md)
 
-#### 7월 23일
+#### 7월 24일
 - [x] [알고리즘 9, 10, 11번 문제 풀고 정리](https://github.com/sonsurim/Algorithm)
 - [x] TIL 문서 정리
   - [TIL template](https://github.com/sonsurim/TIL/blob/main/Template.md)
