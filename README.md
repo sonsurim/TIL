@@ -169,7 +169,8 @@
 - [x] 부스트코스 - Web개발의 이해 강의 듣기
 - [x] 부스트코스 - Web개발의 이해 정리
   - [Programming](https://github.com/sonsurim/TIL/tree/main/Programming)
-  - [Programming_lauguage](https://github.com/sonsurim/TIL/blob/main/Programming/Programming_language.md)
+  - [Programming_low-level-lauguage](https://github.com/sonsurim/TIL/blob/main/Programming/Programming_low-level-language.md)
+  - [Programming_high-level-lauguage](https://github.com/sonsurim/TIL/blob/main/Programming/Programming_high-level-language.md)
   - [HTTP](https://github.com/sonsurim/TIL/tree/main/HTTP)
   - [Web](https://github.com/sonsurim/TIL/tree/main/Web)
   - [Web_internet](https://github.com/sonsurim/TIL/blob/main/Web/Web_internet.md)
@@ -210,4 +211,11 @@
 #### 7월 22일
 - [x] 알고리즘 스터디 참석
 - [x] [알고리즘 스터디 1주차 리뷰 작성](https://github.com/sonsurim/TIL/blob/main/Altong/Altong_review-01.md)
+
+#### 7월 23일
+- [x] [알고리즘 9, 10, 11번 문제 풀고 정리](https://github.com/sonsurim/Algorithm)
+- [x] TIL 문서 정리
+  - [TIL template](https://github.com/sonsurim/TIL/blob/main/Template.md)
+  - [JavaScript](https://github.com/sonsurim/TIL/tree/main/JavaScript)
+  - [JavaScript_Ajax](https://github.com/sonsurim/TIL/blob/main/JavaScript/JavaScript_ajax.md)
 </details>
