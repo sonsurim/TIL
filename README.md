@@ -218,4 +218,8 @@
   - [TIL template](https://github.com/sonsurim/TIL/blob/main/Template.md)
   - [JavaScript](https://github.com/sonsurim/TIL/tree/main/JavaScript)
   - [JavaScript_Ajax](https://github.com/sonsurim/TIL/blob/main/JavaScript/JavaScript_ajax.md)
+
+#### 7월 25일
+- [ ] 알고리즘 스터디 github 운영방식 리서치 및 정리
+- [ ] 인터랙티브웹 구현하기
 </details>
