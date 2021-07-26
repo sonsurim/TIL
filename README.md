@@ -224,6 +224,8 @@
 - [x] [인터랙티브웹_패럴랙스 구현](https://sonsurim.github.io/interactive-web_public/03_parallax/)
 
 #### 7월 26일
-- [x] 알고리즘 스터디 github 운영방식 논의
-- [x] 프로그래머스 데브코스 오리엔테이션
+- [x] 알고리즘 스터디 github 운영방식 논의 참석
+- [x] [알고리즘 스터디 github 운영방식 논의 정리](https://github.com/sonsurim/TIL/blob/main/Altong/Altong_etc-01.md)
+- [x] 프로그래머스 데브코스관련 미팅
+- [x] [알고리즘 12, 13, 14번 문제 풀고 정리](https://github.com/sonsurim/Algorithm)
 </details>
