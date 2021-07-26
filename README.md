@@ -222,4 +222,8 @@
 #### 7월 25일
 - [x] 알고리즘 스터디 github 운영방식 리서치 및 정리
 - [x] [인터랙티브웹_패럴랙스 구현](https://sonsurim.github.io/interactive-web_public/03_parallax/)
+
+#### 7월 26일
+- [x] 알고리즘 스터디 github 운영방식 논의
+- [x] 프로그래머스 데브코스 오리엔테이션
 </details>
