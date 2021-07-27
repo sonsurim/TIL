@@ -228,4 +228,8 @@
 - [x] [알고리즘 스터디 github 운영방식 논의 정리](https://github.com/sonsurim/TIL/blob/main/Altong/Altong_etc-01.md)
 - [x] 프로그래머스 데브코스관련 미팅
 - [x] [알고리즘 12, 13, 14번 문제 풀고 정리](https://github.com/sonsurim/Algorithm)
+
+#### 7월 27일
+- ...🥕😭
+- [x] [알고리즘 15번 문제 풀기](https://github.com/sonsurim/Algorithm)
 </details>
