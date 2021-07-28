@@ -232,4 +232,9 @@
 #### 7월 27일
 - ...🥕😭
 - [x] [알고리즘 15번 문제 풀기](https://github.com/sonsurim/Algorithm)
+
+#### 7월 28일
+- [x] [알고리즘 15번, 16번, 17번 풀고 정리](https://github.com/sonsurim/Algorithm)
+- [x] [알고리즘 스터디노트 작성](https://www.notion.so/herman94/1b594177a4f441c7a350787e6feb7a07?v=aa9d7642663f465686111d6ca1aa03fa&p=88ae374a8bcc4f00bed2ae884c77befd)
+- [x] [알고리즘 스터디 PR 생성](https://github.com/AltongStudy/Algorithm/pulls?page=1&q=is%3Apr+is%3Aopen)
 </details>
