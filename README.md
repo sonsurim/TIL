@@ -258,4 +258,14 @@
 - [x] [알고리즘 section2 01번문제 풀고 정리](https://github.com/sonsurim/Algorithm)
 - [x] [프로그래머스 데브코스 합격 후기 작성](https://velog.io/@surim014/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EB%8D%B0%EB%B8%8C%EC%BD%94%EC%8A%A4-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%ED%95%A9%EA%B2%A9-%ED%9B%84%EA%B8%B0)
 - [x] [프로그래머스 데브코스 1일차 학습 및 정리](https://velog.io/@surim014/%EB%8D%B0%EB%B8%8C%EC%BD%94%EC%8A%A4-TIL-1%EC%9D%BC%EC%B0%A8-%ED%95%99%EC%8A%B5-%EB%82%B4%EC%9A%A9-%EC%9A%94%EC%95%BD)
+
+
+#### 8월 03일
+- [x] [개발자 유림님 특강 - Git&Github]()
+- [x] [프로그래머스 데브코스 2일차 학습 및 정리](https://velog.io/@surim014/%EB%8D%B0%EB%B8%8C%EC%BD%94%EC%8A%A4TIL-2%EC%9D%BC%EC%B0%A8-%ED%95%99%EC%8A%B5-%EB%82%B4%EC%9A%A9-%EC%9A%94%EC%95%BD)
+
+
+#### 8월 04일
+- [x] 요한님과의 멘토링 데이!
+- [ ] [프로그래머스 데브코스 3일차 학습 및 정리]()
 </details>
