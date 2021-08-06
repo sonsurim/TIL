@@ -266,6 +266,13 @@
 
 
 #### 8월 04일
-- [x] 요한님과의 멘토링 데이!
-- [ ] [프로그래머스 데브코스 3일차 학습 및 정리]()
+- [x] 멘토 요한님과의 멘토링 데이!
+- [x] [프로그래머스 데브코스 3일차 학습 및 정리](https://velog.io/@surim014/%EB%8D%B0%EB%B8%8C%EC%BD%94%EC%8A%A4-TIL-3%EC%9D%BC%EC%B0%A8-%ED%95%99%EC%8A%B5-%EB%82%B4%EC%9A%A9-%EC%9A%94%EC%95%BD)
+  
+#### 8월 05일
+- [x] [프로그래머스 TIL PR 생성 후 등록](https://github.com/prgrms-web-devcourse/TIL/pulls?q=is%3Apr+is%3Aopen+%EC%86%90%EC%88%98%EB%A6%BC)
+- [x] [프로그래머스 데브코스 4일차 학습 및 정리](https://velog.io/@surim014/%EB%8D%B0%EB%B8%8C%EC%BD%94%EC%8A%A4-TIL-4%EC%9D%BC%EC%B0%A8-%ED%95%99%EC%8A%B5-%EB%82%B4%EC%9A%A9-%EC%9A%94%EC%95%BD)
+
+##### 8월 06일
+- [] Altong 스터디 2회차 참석
 </details>
