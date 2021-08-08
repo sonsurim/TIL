@@ -330,7 +330,7 @@
 #### 08월 08일
 
 - [x] 프로그래머스 데브코스 알고리즘 과제 구현 - 트라이
-- [x] Altong 스터디 후기 작성
+- [x] [Altong 스터디 2주차 후기 작성](https://github.com/sonsurim/TIL/blob/main/Altong/Altong_review-01.md)
 - [x] Altong 스터디 브랜치 세팅
 - [x] [프로그래머스 TIL 5일차 작성](https://velog.io/@surim014/%EB%8D%B0%EB%B8%8C%EC%BD%94%EC%8A%A4-TIL-5%EC%9D%BC%EC%B0%A8-%ED%95%99%EC%8A%B5-%EB%82%B4%EC%9A%A9-%EC%9A%94%EC%95%BD)
 
