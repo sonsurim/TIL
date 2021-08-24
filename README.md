@@ -423,4 +423,17 @@
 - [x] 데브코스 강의 듣기
 - [x] TIL 작성하기
 - [x] TIL 노션 꾸미기
+
+#### 08월 23일
+
+- [x] 데브코스 강의 듣기
+- [x] TIL 작성하기
+- [x] [생성자 함수 vs 클래스 아티클 작성하고 알아보기](https://velog.io/@surim014/%EC%83%9D%EC%84%B1%EC%9E%90-%ED%95%A8%EC%88%98-vs-%ED%81%B4%EB%9E%98%EC%8A%A4)
+- [x] [CSR vs SSR 아티클 작성하고 알아보기](https://velog.io/@surim014/CSR-%EB%A0%8C%EB%8D%94%EB%A7%81-SSR-%EB%A0%8C%EB%8D%94%EB%A7%81-%EA%B3%BC%EC%A0%95%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%84-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90)
+
+#### 08월 24일
+
+- [x] 데브코스 강의 듣기
+- [x] TIL 작성하기
+- [x] 3주차 과제 컴포넌트 방식의 TodoApp 구현하기
 </details>
